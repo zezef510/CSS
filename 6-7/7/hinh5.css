@@ -1,0 +1,75 @@
+.title{
+    border: 1px solid;
+    height: 150px;
+    margin-top: 10px;
+    font-size: 80px;
+    font-family: 'Permanent Marker', cursive;
+    color: white; /* màu chữ là trắng */
+    padding: 10px;
+    background: #3f3f3f;
+
+}
+.title span {
+    background-color: red; /* màu nền cho phần tử <span> */
+    border-radius: initial;
+}
+.head a{
+    font-size:  30px;
+    margin-left: 200px;
+    margin-right: 10px;
+    border-right: 5px solid black;
+    padding-right: 80px;
+    color: black;
+
+}
+.head {
+    border: 1px solid;
+    height: 80px;
+    margin-top: 10px;
+
+}
+.main {
+    height: 800px;
+    margin-top: 10px;
+}
+.main_left{
+    width: 20%;
+    height: 800px;
+    box-sizing: border-box;
+    float: left;
+    margin-right: 10px;
+}
+.main_left_item{
+    width: 100%;
+    height: 150px;
+    margin-top: 10px;
+    border: 1px solid;
+    font-size: 30px;
+}
+.main_left_item img {
+    height: 100px;
+    width: 100%;
+}
+.main_right{
+    width: calc(80% - 10px);
+    height: 800px;
+    border: 1px solid;
+    box-sizing: border-box;
+    float: left;
+}
+.main_right img {
+    height: 600px;
+    width: 70%;
+    background-position: center;
+
+}
+.bot {
+    border: 1px solid;
+    height: 100px;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 150px;
+
+}
+
+
